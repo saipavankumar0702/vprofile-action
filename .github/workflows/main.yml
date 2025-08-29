@@ -25,7 +25,7 @@ jobs:
           java-version: "11"
 
       - name: Setup SonarQube
-        uses: warchant/sonarcloud-github-action@v2
+        uses: warchant/setup-sonar-scanner@v2
 
       - name: SonarQube scan
         run: sonar-scanner \
